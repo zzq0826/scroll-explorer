@@ -14,3 +14,23 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.wrapper {
+  @apply max-w-1200px px-30px mx-auto;
+}
+
+body .ant-table-thead > tr > th {
+  background: #fff;
+}
+
+.footer .link-container li {
+  @apply text-sm leading-24px;
+}
+
+.footer .link-container li a {
+  color: #e2e2e2;
+}
+
+.footer .link-container li:first-child {
+  @apply uppercase font-bold mb-13px text-white;
+}
