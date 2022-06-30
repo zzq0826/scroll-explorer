@@ -12,12 +12,13 @@ const Header: NextPage = () => {
   return (
     <div className="py-40px header-container wrapper flex justify-between">
       <div>
-        <Link href="/">
+        <Link href="/blocks">
           <Image
             src="/images/logo_with_text.png"
             alt="Picture of the author"
             width={98}
             height={40}
+            className="cursor-pointer"
           />
         </Link>
       </div>
